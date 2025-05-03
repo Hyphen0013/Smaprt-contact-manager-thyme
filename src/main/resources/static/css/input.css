@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components
+{
+    .responsive-logo-text
+    {
+        @apply text-xs sm:text-xs md:text-xl lg:text-xl xl:text-xl font-semibold whitespace-nowrap dark:text-white;
+    }
+
+    .responsive-dropdown-text
+    {
+        @apply text-xs sm:text-xs md:text-base lg:text-base xl:text-base;
+    }
+}
